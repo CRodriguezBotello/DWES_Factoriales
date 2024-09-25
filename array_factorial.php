@@ -3,11 +3,7 @@
     // Guardar en el array los factoriales del 1 al 10
     for($j=0; $j<=10; $j++){
         $factorial[$j]=calcular_factorial($j);
-    }
-    /* echo "<h3>For Each</h3>";
-     foreach ($factorial as $indice => $valor) {
-        echo '<b>'."$indice".'</b> tiene el valor <b>'."$valor".'</b><br/>';
-    }*/   
+    }  
 ?>
 <!DOCTYPE html>
 <html lang="en">
