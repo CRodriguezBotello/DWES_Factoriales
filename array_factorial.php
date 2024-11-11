@@ -19,7 +19,7 @@
             <th colspan="2">Factorial en Array</th>
         </tr>
         <?php
-            // Mostrar los valores del array en una tabla de forma dinamica
+            // Mostrar los valores del array en una tabla de forma dinamica.
             for($i=0; $i<count($factorial); $i++){
                 echo '<tr><td>'."Factorial[$i]".'</td><td>'."$factorial[$i]".'</td></tr>';
             }
